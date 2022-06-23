@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 2vw;
+}
+
+.header--logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+}
+
+.header--logo-icon {
+    max-width: 31.31px;
+    max-height: 26.22px;
+    margin-right: 0.2vw;
+}
+
+.header--logo-text {
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin-left: 0.2vw;
+}
+
+.header--nav {
+    display: flex;
+    padding: 1vw;
+}
+
+.header--nav-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    color: #FFFFFF;
+}
