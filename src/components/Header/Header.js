@@ -1,11 +1,11 @@
 import './Header.css';
-import trollFace from '../../assets/icons/troll-face.png';
+import logo from '../../assets/icons/troll-face.png';
 
 export default function Header () {
     return (
         <header className='header'>
             <div className='header--logo'>
-                <img src={trollFace} alt='Troll Face' className='header--logo-icon' />
+                <img src={logo} alt='Troll Face' className='header--logo-icon' />
                 <h1 className='header--logo-text'>Meme Generator</h1>
             </div>
             <div className='header--nav'>

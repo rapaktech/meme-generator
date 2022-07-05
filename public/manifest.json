@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Meme Generator",
+  "name": "Generate your own memes from the top 100 most popular meme images of the week",
   "icons": [
     {
       "src": "favicon.ico",

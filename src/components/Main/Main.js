@@ -2,9 +2,8 @@ import './Main.css';
 import React from 'react';
 
 export default function Form () {
-    const [memesData, setMemesData] = React.useState({});
+    const [memesData, setMemesData] = React.useState([]);
     React.useEffect(() => {
-        console.log('Effect ran!');
         fetch("https://api.imgflip.com/get_memes")
             .then(res => res.json())
             .then(data => {
@@ -16,8 +15,8 @@ export default function Form () {
     const [memeImage, setMemeImage] = React.useState({
         topText: '',
         bottomText: '',
-        randomImage: '',
-        altText: ''
+        randomImage: 'https://i.imgflip.com/1c1uej.jpg',
+        altText: 'Sad Pablo Escobar'
     });
 
     function handleChange (event) {
